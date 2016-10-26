@@ -27,8 +27,8 @@ Some of the new changes are disruptive; it seemed safer to rename the applicatio
 - changed blacklist values to the correct versions installed under 3.60
 
 Additional notes: 
-I'm still not aware of a reliable way to remount vs0 so a reboot is necessary when patching v1 on vs0.
-With the new checks (if v1 vs0 is already applied) you can re-install v1 on ur0 without this inconvenience.
+I'm still not aware of a reliable way to remount vs0 so a reboot is necessary when patching v1 on that partition.
+With the newly added checks (and if v1 vs0 is already applied) you can re-install v1 on ur0 without this inconvenience.
 
 Could use some help with:
 - A safe way to remount vs0 without rebooting
